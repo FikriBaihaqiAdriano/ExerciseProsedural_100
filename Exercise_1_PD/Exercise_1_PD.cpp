@@ -29,3 +29,11 @@ void input() {
 	}
 }
 
+void TampilanHasil() {
+	cout << "Nama\t\tStatus" << endl;
+	for (int i = 0; i < 20; i++) {
+
+		cout << Nama[i] << status(rataratanil[i], nilMTK[i]) << endl;
+
+	}
+}
