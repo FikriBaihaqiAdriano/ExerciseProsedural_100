@@ -37,3 +37,20 @@ void TampilanHasil() {
 
 	}
 }
+
+void total_kandidat() {
+	int diterima = 0;
+	int tidak_diterima = 0;
+	for (int i = 0; i < 20; i++) {
+		if (status(rataratanil[i], nilMTK[i]) == "Diterima") {
+			diterima++;
+		}
+		else {
+			tidak_diterima++;
+		}
+	}
+
+	cout << "Jumlah Kandidat yang diterima : " << diterima << endl;
+	cout << "Jumlah Kaandidat yang tidak dtierima : " << tidak_diterima << endl;
+
+}
